@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>使用 JavaScript 的示例</title>
+</head>
+<body>
+<div>
+    <label style="font-size: 18px;" id="nameLabel" for="name"><strong>输入一个名字：</strong></label>
+    <input type="text" id="name" placeholder="客天涯">
+</div>
+<div style="margin-top: 15px;margin-bottom: 15px;">
+    <label for="cn" id="cnLb">中国</label>
+    <input type="radio" id="cn" name="nation" checked>
+    <label for="us" id="usLb">美国</label>
+    <input type="radio" id="us" name="nation">
+    <label for="uk" id="ukLb">英国</label>
+    <input type="radio" id="uk" name="nation">
+</div>
+<div>
+    <button class="generate">随机生成笑话</button>
+</div>
+<p class="story"></p>
+<script src="main.js"></script>
+</body>
+</html>
